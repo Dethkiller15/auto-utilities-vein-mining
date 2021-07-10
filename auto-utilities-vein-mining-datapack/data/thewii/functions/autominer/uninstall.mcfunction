@@ -13,6 +13,15 @@ scoreboard objectives remove twvm.nthr.gold
 scoreboard objectives remove twvm.debris
 scoreboard objectives remove twvm.gilded
 
+scoreboard objectives remove twvm.copperore
+scoreboard objectives remove twvm.dcopperore
+scoreboard objectives remove twvm.dironore
+scoreboard objectives remove twvm.dgoldore
+scoreboard objectives remove twvm.dredstoneor
+scoreboard objectives remove twvm.dcoalore
+scoreboard objectives remove twvm.dlapisore
+scoreboard objectives remove twvm.ddiamondore
+
 scoreboard objectives remove twvm.tin
 scoreboard objectives remove twvm.copper
 scoreboard objectives remove twvm.uranium
