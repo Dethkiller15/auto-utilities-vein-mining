@@ -28,6 +28,11 @@ scoreboard players set $1.16 twvm.tool 0
 function thewii:autominer/detect_1.16
 execute if score $1.16 twvm.tool matches 1 run function thewii:autominer/install_netherupdate
 
+# Check For 1.17
+scoreboard players set $1.17 twvm.tool 0
+function thewii:autominer/detect_1.17
+execute if score $1.17 twvm.tool matches 1 run function thewii:autominer/install_vaces_clifs_update
+
 # Add Vanilla+ Library Modules
 execute unless data storage thewii:autominer/data {installed:1b} run function thewii:vp_library/math/add
 execute unless data storage thewii:autominer/data {installed:1b} run function thewii:vp_library/loaded_chunk/add
