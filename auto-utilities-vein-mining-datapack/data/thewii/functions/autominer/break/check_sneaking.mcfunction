@@ -18,6 +18,16 @@ scoreboard players reset @s twvm.nthr_gold
 scoreboard players reset @s twvm.debris
 scoreboard players reset @s twvm.gilded
 
+scoreboard players reset @s twvm.copperore
+scoreboard players reset @s twvm.dcopperore
+scoreboard players reset @s twvm.dironore
+scoreboard players reset @s twvm.dgoldore
+scoreboard players reset @s twvm.demeraldore
+scoreboard players reset @s twvm.dcoalore
+scoreboard players reset @s twvm.dlapisore
+scoreboard players reset @s twvm.ddiamondore
+scoreboard players reset @s twvm.dredstoneor
+
 scoreboard players reset @s twvm.tin
 scoreboard players reset @s twvm.copper
 scoreboard players reset @s twvm.uranium

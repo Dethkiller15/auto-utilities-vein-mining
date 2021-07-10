@@ -18,3 +18,14 @@ execute if score @s twvm.copper matches 1.. run scoreboard players set $level tw
 execute if score @s twvm.tin matches 1.. run scoreboard players set $level twvm.tool 13
 execute if score @s twvm.uranium matches 1.. run scoreboard players set $level twvm.tool 14
 execute if score @s twvm.titanium matches 1.. run scoreboard players set $level twvm.tool 15
+
+# Vanilla 1.17+
+execute if score @s twvm.copperore matches 1.. run scoreboard players set $level twvm.tool 16
+execute if score @s twvm.dcopperore matches 1.. run scoreboard players set $level twvm.tool 17
+execute if score @s twvm.dironore matches 1.. run scoreboard players set $level twvm.tool 18
+execute if score @s twvm.dgoldore matches 1.. run scoreboard players set $level twvm.tool 19
+execute if score @s twvm.dredstoneor matches 1.. run scoreboard players set $level twvm.tool 20
+execute if score @s twvm.demeraldore matches 1.. run scoreboard players set $level twvm.tool 21
+execute if score @s twvm.dcoalore matches 1.. run scoreboard players set $level twvm.tool 22
+execute if score @s twvm.dlapisore matches 1.. run scoreboard players set $level twvm.tool 23
+execute if score @s twvm.ddiamondore matches 1.. run scoreboard players set $level twvm.tool 24
