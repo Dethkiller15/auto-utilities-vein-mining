@@ -44,6 +44,36 @@ execute if score @s twvm.uranium matches 1.. run tag @e[type=item,limit=1,sort=n
 execute if score @s twvm.titanium matches 1.. run tag @e[type=item,limit=1,sort=nearest,distance=..8,tag=!global.ignore,nbt={Age:0s,Item:{tag:{OreDict:["oreTitanium"]}}}] add twvm.ore
 execute if score @s twvm.titanium matches 1.. run tag @e[type=item,limit=1,sort=nearest,distance=..8,tag=!global.ignore,nbt={Age:0s,Item:{tag:{OreDict:["ingotTitanium"]}}}] add twvm.ore
 
+# Vanilla 1.17
+execute if score @s twvm.copperore matches 1.. run tag @e[type=item,limit=1,sort=nearest,distance=..1,tag=!global.ignore,nbt={Age:0s,Item:{id:"minecraft:copper_ore"}}] add twvm.ore
+execute if score @s twvm.copperore matches 1.. run tag @e[type=item,limit=1,sort=nearest,distance=..1,tag=!global.ignore,nbt={Age:0s,Item:{id:"minecraft:raw_copper"}}] add twvm.ore
+
+execute if score @s twvm.dcopperore matches 1.. run tag @e[type=item,limit=1,sort=nearest,distance=..1,tag=!global.ignore,nbt={Age:0s,Item:{id:"minecraft:deepslate_copper_ore"}}] add twvm.ore
+execute if score @s twvm.dcopperore matches 1.. run tag @e[type=item,limit=1,sort=nearest,distance=..1,tag=!global.ignore,nbt={Age:0s,Item:{id:"minecraft:raw_copper"}}] add twvm.ore
+
+execute if score @s twvm.dironore matches 1.. run tag @e[type=item,limit=1,sort=nearest,distance=..1,tag=!global.ignore,nbt={Age:0s,Item:{id:"minecraft:deepslate_iron_ore"}}] add twvm.ore
+execute if score @s twvm.dironore matches 1.. run tag @e[type=item,limit=1,sort=nearest,distance=..1,tag=!global.ignore,nbt={Age:0s,Item:{id:"minecraft:raw_iron"}}] add twvm.ore
+
+execute if score @s twvm.dgoldore matches 1.. run tag @e[type=item,limit=1,sort=nearest,distance=..1,tag=!global.ignore,nbt={Age:0s,Item:{id:"minecraft:deepslate_gold_ore"}}] add twvm.ore
+execute if score @s twvm.dgoldore matches 1.. run tag @e[type=item,limit=1,sort=nearest,distance=..1,tag=!global.ignore,nbt={Age:0s,Item:{id:"minecraft:raw_gold"}}] add twvm.ore
+
+execute if score @s twvm.dredstoneor matches 1.. run tag @e[type=item,limit=1,sort=nearest,distance=..1,tag=!global.ignore,nbt={Age:0s,Item:{id:"minecraft:deepslate_redstone_ore"}}] add twvm.ore
+execute if score @s twvm.dredstoneor matches 1.. run tag @e[type=item,limit=1,sort=nearest,distance=..1,tag=!global.ignore,nbt={Age:0s,Item:{id:"minecraft:redstone"}}] add twvm.ore
+
+execute if score @s twvm.demeraldore matches 1.. run tag @e[type=item,limit=1,sort=nearest,distance=..1,tag=!global.ignore,nbt={Age:0s,Item:{id:"minecraft:deepslate_emerald_ore"}}] add twvm.ore
+execute if score @s twvm.demeraldore matches 1.. run tag @e[type=item,limit=1,sort=nearest,distance=..1,tag=!global.ignore,nbt={Age:0s,Item:{id:"minecraft:emerald"}}] add twvm.ore
+
+execute if score @s twvm.dlapisore matches 1.. run tag @e[type=item,limit=1,sort=nearest,distance=..1,tag=!global.ignore,nbt={Age:0s,Item:{id:"minecraft:deepslate_lapis_ore"}}] add twvm.ore
+execute if score @s twvm.dlapisore matches 1.. run tag @e[type=item,limit=1,sort=nearest,distance=..1,tag=!global.ignore,nbt={Age:0s,Item:{id:"minecraft:lapis_lazuli"}}] add twvm.ore
+
+execute if score @s twvm.ddiamondore matches 1.. run tag @e[type=item,limit=1,sort=nearest,distance=..1,tag=!global.ignore,nbt={Age:0s,Item:{id:"minecraft:deepslate_diamond_ore"}}] add twvm.ore
+execute if score @s twvm.ddiamondore matches 1.. run tag @e[type=item,limit=1,sort=nearest,distance=..1,tag=!global.ignore,nbt={Age:0s,Item:{id:"minecraft:diamond"}}] add twvm.ore
+
+execute if score @s twvm.dcoal matches 1.. run tag @e[type=item,limit=1,sort=nearest,distance=..1,tag=!global.ignore,nbt={Age:0s,Item:{id:"minecraft:deepslate_coal_ore"}}] add twvm.ore
+execute if score @s twvm.dcoal matches 1.. run tag @e[type=item,limit=1,sort=nearest,distance=..1,tag=!global.ignore,nbt={Age:0s,Item:{id:"minecraft:coal"}}] add twvm.ore
+
+
+
 
 # Detect found
 execute if entity @e[type=item,limit=1,sort=nearest,distance=..1,tag=twvm.ore] run scoreboard players set #found twvm.tool 1
