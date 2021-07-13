@@ -45,3 +45,4 @@ data merge storage thewii:autominer/data {FirstReload:1b,Installed:0b}
 data remove storage thewii:autominer/data Version
 data remove storage thewii:autominer/data Mechanization
 data remove storage thewii:autominer/data NetherUpdate
+data remove storage thewii:autominer/data {CAndCUpdate:1b}
